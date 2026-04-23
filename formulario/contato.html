@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Contato</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+    
+<nav>
+  <a href="index.html">Home</a>
+  <a href="curriculo.html">Currículo</a>
+  <a href="servicos.html">Serviços</a>
+  <a href="contato.html">Contato</a>
+</nav>
+
+<div class="container">
+
+  <h1>Contato</h1>
+
+  <div class="form-box">
+
+    <form action="luizmiguelvaladares454@gmail.com@gmail.com" method="POST">
+
+      <label>Nome completo:</label>
+      <input type="text" required>
+
+      <label>Telefone:</label>
+      <input type="tel">
+
+      <label>Email:</label>
+      <input type="email" required>
+
+      <label>Tipo de cliente:</label>
+      <select>
+        <option>Pessoa Física</option>
+        <option>Pessoa Jurídica</option>
+      </select>
+
+      <label>Melhor horário:</label>
+      <div class="radio-group">
+        <label><input type="radio" name="hora"> Manhã</label>
+        <label><input type="radio" name="hora"> Tarde</label>
+        <label><input type="radio" name="hora"> Noite</label>
+      </div>
+
+      <label>Serviço desejado:</label>
+      <div class="checkbox-group">
+        <label><input type="checkbox"> Site simples</label>
+        <label><input type="checkbox"> Site avançado</label>
+      </div>
+
+      <label>Descrição:</label>
+      <textarea rows="4"></textarea>
+
+      <button type="submit">Enviar</button>
+
+    </form>
+
+  </div>
+
+</div>
+
+</body>
+</html>
